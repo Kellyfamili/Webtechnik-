@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arbeitnehmende</title>
+</head>
+
+<body>
+
+    <p><img src="Logo.jpg" alt="logo Cinetix Media" width="100" height="auto"> </p>
+   
+    <a href="index.html">Home</a> 
+            <br>
+            <a href="über uns.html">Über uns</a>
+    <br>
+    <a href="Portfolio.html">Portfolio</a>
+    <br>
+    <a href="Dienstleistungen.html">Dienstlesitungen</a>
+    <br>
+    <a href="Marketing.html">Marketing</a>
+    <br>
+    <a href="contact.html">Kontakt</a>
+ <h1>Was ist Marketing</h1>
+    <form>
+        <fieldset>
+            <legend>Personalien</legend>
+            <label for="Vorname">Vorname</label>
+            <input type="Text" id="Vorname" name="Vorname" placeholder="Vorname eingeben" required>
+            <label for="Nachname">Name</label>
+            <input type="Text" id="Nachname" name="Nachname" placeholder="Name eingeben" required>
+            <label for="Geschlecht">Geschlecht</label>
+            <select id="Geschlecht" name="Geschlecht" required>
+                <option value="">Geschlecht wählen</option>
+                <option value="weiblich">weiblich</option>
+                <option value="männlich">männlich</option>
+                <option value="anderes">anderes</option>
+            </select>
+            <label for="Alter">Alter</label>
+            <input type="number" id="Alter" name="Alter" min="18" max="99" placeholder="0" required>
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" name="Email" placeholder="Email eingeben" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Bewertung</legend>
+            <label for="Arbeitnehmender">Arbeitnehmende</label>
+            <input list="Arbeitnehmende" id="Arbeitnehmender" name="Arbeitnehmender"
+                placeholder="Arbeitnehmende auswählen" required>
+            <datalist id="Arbeitnehmende">
+                <option value="John Smith">Verkauf</option>
+                <option value="Ella Harper">Verkauf</option>
+                <option value="Charls Jackson">Verkauf</option>
+                <option value="Wendy Smith">Lager</option>
+                <option value="Anna Harper">Lager</option>
+                <option value="Olivia Mason">Lager</option>
+            </datalist>
+            <p>Dienstleistungen</p>
+            <label><input type="checkbox" name="dienstleistungen" value="Beratung"> Beratung</label>
+            <label><input type="checkbox" name="dienstleistungen" value="Reparatur"> Reparatur</label>
+            <label><input type="checkbox" name="dienstleistungen" value="Produktkauf"> Produktkauf</label>
+            <br>
+            <label for="Bewertung">Bewertung</label>
+            <select id="Bewertung" name="Bewertung" required>
+                <option value="">Bewertung wählen</option>
+                <option value="Sehr gut">Sehr gut</option>
+                <option value="Gut">Gut</option>
+                <option value="Durchschnitt">Durchschnitt</option>
+                <option value="Schlecht">Schlecht</option>
+            </select>
+            <label for="Bemerkungen">Bemerkungen</label>
+            <textarea id="Bemerkungen" name="Bemerkungen" rows="5" cols="30" placeholder=""></textarea>
+        </fieldset>
+        <br>
+        <button type="Absenden">Absenden</button>
+    </form>
+</body>
+<br>
+
+ <br>
+ <a href="Impressum.html">Impressum</a>
+ <br>
+ <a href="Datenschutz.html">Datenschutzerklärung</a>
+</html>
