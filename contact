@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinetix Media - Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="Logo.jpg" alt="Cinetix Media Logo" width="100">
+        <h1>Kontakt - Wir sind für dich da!</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="über uns.html">Über uns</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Dienstleistungen.html">Dienstleistungen</a></li>
+            <li><a href="Marketing.html">Marketing</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HAUPTINHALT -->
+    <main>
+        <h2>Kontaktiere uns</h2>
+        <p>Hast du Fragen zu unseren Dienstleistungen oder möchtest du eine unverbindliche Beratung? Dann schreibe uns oder rufe uns an!</p>
+
+        <h3>Unsere Kontaktdaten</h3>
+        <p><strong>Adresse:</strong> Musterstrasse 77, 4666 Musterstadt</p>
+        <p><strong>Telefon:</strong> 076 456 45 45</p>
+        <p><strong>E-Mail:</strong> <a href="mailto:info@cinetix.com">info@cinetix.com</a></p>
+
+        <h3>Kontaktformular</h3>
+        <form>
+            <fieldset>
+                <legend>Deine Kontaktdaten</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Dein Name" required>
+
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+
+                <label for="betreff">Betreff</label>
+                <input type="text" id="betreff" name="betreff" placeholder="Betreff deiner Nachricht" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Deine Nachricht</legend>
+                <label for="nachricht">Nachricht</label>
+                <textarea id="nachricht" name="nachricht" rows="5" placeholder="Schreibe uns eine Nachricht..." required></textarea>
+            </fieldset>
+
+            <button type="submit">Nachricht senden</button>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Cinetix Media - Alle Rechte vorbehalten</p>
+        <a href="Impressum.html">Impressum</a> | 
+        <a href="Datenschutz.html">Datenschutzerklärung</a>
+    </footer>
+
+</body>
+</html>
