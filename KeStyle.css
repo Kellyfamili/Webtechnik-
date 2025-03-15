@@ -57,16 +57,20 @@ nav {
     padding: 10px;
 }
 
-/* Flexbox für Navigation */
+/* ===================================================
+   4. FLEXBOX-NAVIGATION 
+   =================================================== */
 nav ul {
     display: flex;
-    flex-direction: column;
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;  /* Erlaubt Umbruch auf kleine Screens */
+    justify-content: center;
 }
 
 nav ul li {
-    margin: 10px 0;
+    flex: 1 1 50%; /* Jeder Menüpunkt nimmt 50% der Breite auf kleinen Bildschirmen */
+    text-align: center;
 }
 
 nav ul li a {
@@ -81,11 +85,9 @@ nav ul li a:hover {
     background: var(--accent-color);
 }
 
-main {
-    grid-area: main;
-    padding: 20px;
-}
-
+/* ===================================================
+   5. FOOTER - Impressum, Datenschutz
+   =================================================== */
 footer {
     grid-area: footer;
     background-color: var(--secondary-color);
@@ -94,7 +96,61 @@ footer {
 }
 
 /* ===================================================
-   4. RESPONSIVE DESIGN - Anpassung für kleine Bildschirme
+   6. BUTTONS - Einheitliche Buttons für alle Seiten
+   =================================================== */
+button {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* ===================================================
+   7. FORMULARE - Einheitliches Styling für Eingabefelder
+   =================================================== */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+/* ===================================================
+   8. SEITEN-SPEZIFISCHE STILE - Individuelle Anpassungen
+   =================================================== */
+
+/* Portfolio-Bereich */
+.portfolio-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-section img {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* Kontaktseite */
+.contact-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* ===================================================
+   9. RESPONSIVE DESIGN - Anpassung für kleine Bildschirme
    =================================================== */
 @media (max-width: 768px) {
     .container {
@@ -108,11 +164,17 @@ footer {
     }
 
     nav ul {
-        flex-direction: row;
-        justify-content: space-around;
+        flex-wrap: wrap; /* Erlaubt Umbruch für kleinere Bildschirme */
+        justify-content: center;
     }
 
     nav ul li {
-        margin: 0;
+        flex: 1 1 50%; /* Jeder Menüpunkt nimmt 50% der Breite */
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
     }
 }
