@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinetix Media - Dienstleistungen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="Logo.jpg" alt="Cinetix Media Logo" width="100">
+        <h1>Unsere Dienstleistungen</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="über uns.html">Über uns</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Dienstleistungen.html">Dienstleistungen</a></li>
+            <li><a href="Marketing.html">Marketing</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HAUPTINHALT -->
+    <main>
+        <h2>Unsere Dienstleistungen</h2>
+        <p>Wir bieten maßgeschneiderte Lösungen für deine Medienprojekte, von professionellen Fotoshootings bis hin zu hochwertigen Werbefilmen.</p>
+
+        <h2>Unsere Hauptservices</h2>
+        <ul>
+            <li><strong>Fotografie</strong> – Hochwertige Aufnahmen für Events, Hochzeiten und Unternehmen.</li>
+            <li><strong>Videografie</strong> – Produktion von Werbefilmen, Eventvideos und Social Media Clips.</li>
+            <li><strong>Social Media Marketing</strong> – Optimierung von Online-Präsenzen durch strategische Inhalte.</li>
+            <li><strong>Bild- & Videobearbeitung</strong> – Professionelle Nachbearbeitung für beeindruckende Ergebnisse.</li>
+            <li><strong>Live-Streaming</strong> – Hochwertige Live-Übertragungen für Events und Unternehmen.</li>
+        </ul>
+
+        <h2>Warum Cinetix Media?</h2>
+        <p>Unsere Expertise und unser kreatives Team garantieren dir beeindruckende Ergebnisse. Wir arbeiten mit den neuesten Technologien und bieten individuelle Lösungen für deine Bedürfnisse.</p>
+        
+        <h2>Unsere Partner</h2>
+        <ul>
+            <li><strong>Khaled GmbH</strong> - Spezialist für Social Media Marketing</li>
+            <li><strong>Kelly GmbH</strong> - Experten für Videoproduktion</li>
+        </ul>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Cinetix Media - Alle Rechte vorbehalten</p>
+        <a href="Impressum.html">Impressum</a> | 
+        <a href="Datenschutz.html">Datenschutzerklärung</a>
+    </footer>
+
+</body>
+</html>
+
