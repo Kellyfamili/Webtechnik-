@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinetix Media - Impressum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="Logo.jpg" alt="Cinetix Media Logo" width="100">
+        <h1>Impressum</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="über uns.html">Über uns</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Dienstleistungen.html">Dienstleistungen</a></li>
+            <li><a href="Marketing.html">Marketing</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HAUPTINHALT -->
+    <main>
+        <h2>Angaben gemäß § 5 TMG</h2>
+        <p><strong>Cinetix Media</strong></p>
+        <p>Musterstrasse 77<br>4666 Musterstadt</p>
+        <p><strong>Vertreten durch:</strong> Max Mustermann</p>
+
+        <h3>Kontakt</h3>
+        <p>Telefon: 076 456 45 45<br>
+        E-Mail: <a href="mailto:info@cinetix.com">info@cinetix.com</a></p>
+
+        <h3>Umsatzsteuer-ID</h3>
+        <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE123456789</p>
+
+        <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
+        <p>Max Lebron<br>Goat Street 77, 2503 Biel</p>
+
+        <h3>Haftung für Inhalte</h3>
+        <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.</p>
+
+        <h3>Haftung für Links</h3>
+        <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.</p>
+
+        <h3>Urheberrecht</h3>
+        <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet.</p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Cinetix Media - Alle Rechte vorbehalten</p>
+        <a href="Datenschutz.html">Datenschutzerklärung</a>
+    </footer>
+
+</body>
+</html>
+
