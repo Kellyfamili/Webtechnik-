@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinetix Media - Datenschutzerklärung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="Logo.jpg" alt="Cinetix Media Logo" width="100">
+        <h1>Datenschutzerklärung</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="über uns.html">Über uns</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Dienstleistungen.html">Dienstleistungen</a></li>
+            <li><a href="Marketing.html">Marketing</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- HAUPTINHALT -->
+    <main>
+        <h2>Datenschutzerklärung</h2>
+        <p>Der Schutz deiner persönlichen Daten ist uns wichtig. Hier erfährst du, welche Informationen wir sammeln und wie wir sie verwenden.</p>
+
+        <h3>1. Verantwortliche Stelle</h3>
+        <p><strong>Cinetix Media</strong><br>
+        Musterstrasse 77, 4666 Musterstadt<br>
+        Telefon: 076 456 45 45<br>
+        E-Mail: <a href="mailto:info@cinetix.com">info@cinetix.com</a></p>
+
+        <h3>2. Erhebung und Verarbeitung personenbezogener Daten</h3>
+        <p>Wir verarbeiten personenbezogene Daten nur, wenn du uns diese durch eine Kontaktanfrage, Newsletter-Anmeldung oder andere Interaktionen bereitstellst.</p>
+
+        <h3>3. Verwendung von Cookies</h3>
+        <p>Unsere Website verwendet Cookies, um die Benutzererfahrung zu verbessern. Du kannst die Speicherung von Cookies in deinen Browsereinstellungen deaktivieren.</p>
+
+        <h3>4. Google Analytics</h3>
+        <p>Unsere Website nutzt Google Analytics, um das Nutzerverhalten zu analysieren. Dabei werden Daten anonymisiert gesammelt. Du kannst dem Tracking jederzeit widersprechen.</p>
+
+        <h3>5. Weitergabe von Daten an Dritte</h3>
+        <p>Wir geben deine Daten nicht ohne deine ausdrückliche Zustimmung an Dritte weiter, es sei denn, wir sind gesetzlich dazu verpflichtet.</p>
+
+        <h3>6. Deine Rechte</h3>
+        <p>Du hast das Recht auf Auskunft, Berichtigung und Löschung deiner personenbezogenen Daten. Kontaktiere uns dazu per E-Mail.</p>
+
+        <h3>7. Änderungen dieser Datenschutzerklärung</h3>
+        <p>Wir behalten uns vor, diese Datenschutzerklärung zu ändern. Die aktuelle Version ist stets auf unserer Website verfügbar.</p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Cinetix Media - Alle Rechte vorbehalten</p>
+        <a href="Impressum.html">Impressum</a>
+    </footer>
+
+</body>
+</html>
